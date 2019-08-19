@@ -1,3 +1,6 @@
+#Reto wh----
+#F4us70----
+
 import sys
 from tkinter import*
 
@@ -17,13 +20,13 @@ vp.grid(column=0,row=0,padx=(50,50),pady=(10,10))
 vp.columnconfigure(0,weight=1)  
 vp.rowconfigure(0,weight=1)
 
-
+#boton
 boton=Button(vp,text='Mostrar tabla',command=click)
 boton.grid(column=1,row=1)
-
+#Mostrar
 etiqueta=Label(vp,text='Resultado')
 etiqueta.grid(column=2,row=2,sticky=(W,E))
-
+#Entrada de valor
 valor=""
 entrada_txt=Entry(vp,width=10,textvariable=valor)
 entrada_txt.grid(column=2,row=1)
